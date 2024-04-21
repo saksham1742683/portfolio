@@ -1,0 +1,68 @@
+
+.maindiv{
+    padding: 0px 80px 0px 80px}
+
+.navbar{
+    height: 100px;
+    width: 1000px;
+    background-color: #7c3bed;
+    border-bottom
+
+}
+
+.box2{
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: #f3f4f6;
+}
+.box2heading{
+    text-align: center;
+}
+.box2para{
+    text-align: center;
+}
+.image{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}
+.divimage{
+    text-align: center;
+}
+.box3{
+    text-align: center;
+}
+.box3heading{
+    text-align: center;
+}
+.seeprojectbtn{
+    display: block;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #7c3bed;
+    height: 30px;
+    width: 100px;
+}
+.box4{
+    text-align: center;
+    background-color: #f3f4f6;
+}
+.box4heading{
+    text-align: center;
+}
+.box4{
+    border: 1px solid black;
+    border-radius: 9px;
+}
+.seeblogsbtn{
+    display: block;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
+.footer{
+    text-align: center;
+    background-color: #7c3bed;
+    border-radius: 10px;
+}
