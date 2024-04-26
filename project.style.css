@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+:root{
+    --primary-color: #7c3aed;
+    --offwhite-color: #f1f5f9;
+    --white-color: white;
+    --grey-color: #6b7280;
+}
+
+.main-div{
+    margin: 0rem 7rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+    margin-bottom: 2rem;
+
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .link{
+    color: white;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+.link {
+    /* box-sizing: border-box; */
+    text-decoration: none;
+    /* padding: 0.5rem 1rem; */
+}
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.see-code{
+    text-align: center;
+    color: var(--grey-color);
+    padding: 2rem 0rem;
+}
+.color-code{
+    color: var(--primary-color);
+}
+
+.project-1{
+    text-align: center;
+    padding: 2rem 0rem;
+    background-color: var(--offwhite-color);
+    border-radius: 1rem;
+    margin: 0rem 10rem;
+    /* display: flex;
+    flex-direction: column; */
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.small-case{
+    font-size: 0.9rem;
+}
+.projectbtn-1{
+    background-color: var(--primary-color);
+    padding: 9px 22px;
+    border-radius: 20px;
+    color: white;
+}
+.projectbtn-2{
+    padding: 9px 22px;
+    border-radius: 20px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.footer{
+    margin-top:  30px;
+      background-color: var(--primary-color);
+      color: var(--offwhite-color);
+      padding: 2rem 1rem;
+      text-align: center;
+      border-top-right-radius: 1rem;
+  }
+  .footer .link{
+      color: white;
+      padding: 1rem;
+      /* text-decoration: none; */
+  }
+  .footer .footer-header{
+      font-weight: bold;
+      font-size: 1.2rem;
+  }
